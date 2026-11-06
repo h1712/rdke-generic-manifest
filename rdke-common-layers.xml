@@ -16,7 +16,7 @@
     </project>
 
     <project groups="oe" name="openembedded-core" path="openembedded-core" remote="rdkcentral" revision="refs/tags/yocto-6.0.3">
-        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
+        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED_CORE"/>
     </project>
 
     <project groups="oe" name="bitbake" path="openembedded-core/bitbake" remote="rdkcentral" revision="refs/heads/2.18"/>
