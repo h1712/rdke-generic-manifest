@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <yocto version="kirkstone" />
+    <yocto version="wrynose" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
     
     <project groups="configs" name="rdke-stb-config" path="profile" remote="rdkcentral" revision="refs/tags/1.0.0">
@@ -11,7 +11,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_CONFIG_COMMON"/>
     </project>
 
-    <project groups="rdk" name="meta-rdk-bluetooth" path="rdke/vendor/meta-rdk-bluetooth" remote="rdkcentral" revision="refs/tags/1.1.0">
+    <project groups="rdk" name="meta-rdk-bluetooth" path="rdke/vendor/meta-rdk-bluetooth" remote="rdkcentral" revision="refs/heads/support/wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_BLUETOOTH"/>
     </project>
 
