@@ -2,8 +2,9 @@
 <manifest>
     <yocto version="wrynose" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
+    <remote fetch="https://github.com/h1712" name="h1712" />
 
-    <project groups="stacklayering" name="meta-stack-layering-support" path="meta-stack-layering-support" remote="rdkcentral" revision="refs/tags/5.0.4">
+    <project groups="stacklayering" name="meta-stack-layering-support" path="meta-stack-layering-support" remote="rdkcentral" revision="refs/heads/feature/rdke-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT"/>
     </project>
 
@@ -11,21 +12,21 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
     </project>
 
-    <project groups="oe" name="meta-openembedded" path="meta-openembedded" remote="rdkcentral" revision="refs/tags/wry-bpi-baseline-1">
+    <project groups="oe" name="meta-openembedded" path="meta-openembedded" remote="h1712" revision="refs/heads/feature/rdke-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED"/>
     </project>
 
-    <project groups="oe" name="openembedded-core" path="openembedded-core" remote="rdkcentral" revision="refs/tags/yocto-6.0.3">
+    <project groups="oe" name="openembedded-core" path="openembedded-core" remote="h1712" revision="refs/heads/feature/rdke-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED_CORE"/>
     </project>
 
     <project groups="oe" name="bitbake" path="openembedded-core/bitbake" remote="rdkcentral" revision="refs/heads/2.18"/>
 
-    <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/heads/support/wrynose">
+    <project groups="layers" name="meta-rdk-oss-reference" path="meta-rdk-oss-reference" remote="rdkcentral" revision="refs/heads/feature/rdke-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
     </project>
 
-    <project groups="rdk" name="meta-rdk-halif-headers" path="meta-rdk-halif-headers" remote="rdkcentral" revision="refs/tags/5.0.0_hotfix">
+    <project groups="rdk" name="meta-rdk-halif-headers" path="meta-rdk-halif-headers" remote="rdkcentral" revision="refs/heads/feature/rdke-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_HALIF_HEADERS"/>
     </project>
 
